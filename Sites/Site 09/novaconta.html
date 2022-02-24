@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Francisco Alysson">
+    <meta name="Contato" content="franciscoalyssongomesdossantos@gmail.com">
+    <meta name="keyworks" content=" HTML5 CSS3">
+    <link rel="icon" href="./imagens/icon.png">
+    <title>Banco do Brasil | Nova Conta</title>
+</head>
+<body style="background-image: url(./imagens/tema.png); text-align: center;">
+    <div id="wrap">
+        <header style="text-align: center;">
+            <h1 class="titulo" style="color: #1194F6; font-family: Arial; font-size: 40px;">NOVA CONTA</h1>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <ul style="list-style: none; text-align: left; ">
+                        <li style="text-align: center;background-color: #1194F6; width: 65px; height: 25px; border-radius: 20px;"><a href="index.html" style="text-decoration: none; color: #ffffff;font-size: 20px; font-family: Arial;">Voltar</a></li>
+                    </ul>
+                </article>
+            </section>
+
+            <section>
+                <article>
+                    <form action="saque.html" method="post">
+
+                        <label style="font-size: 30px; font-family: Arial;color: #ffffff;">
+                            Nome:
+                            <input type="text" required name="nome" placeholder="Nome Completo" style="text-align: center;background-color: #1194F6; width: 700px; height: 35px; color: #ffffff;font-size: 25px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                        </label><br>
+
+                        <label style="font-size: 30px; font-family: Arial;color: #ffffff;">
+                            Data de Nascimento:
+                            <input type="date" required name="datanascimento" style="text-align: center;background-color: #1194F6; width: 230px; height: 35px; color: #ffffff;font-size: 25px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                        </label>
+
+                        <label style="font-size: 30px; font-family: Arial;color: #ffffff;">
+                            Sexo:
+                            <select name="banco" required style="text-align: center;background-color: #1194F6; width: 350px; height: 35px; color: #ffffff;font-size: 25px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                                <option value="escolha">Escolha um sexo</option>
+                                <option value="masculino">Masculino</option>
+                                <option value="feminino">Feminino</option>
+                                <option value="sem">Prefiro não informar</option>
+                            </select>
+                        </label><br>
+
+                        <label style="font-size: 30px; font-family: Arial;color: #ffffff;">
+                            Endereço:
+                            <input type="text" name="endereco" required placeholder="Seu endereço" style="text-align: center;background-color: #1194F6; width: 900px; height: 35px; color: #ffffff;font-size: 25px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                        </label><br>
+
+                        <label style="font-size: 30px; font-family: Arial;color: #ffffff;">
+                            Cidade:
+                            <input type="text" required placeholder="Cidade" name="cidade" style="text-align: center;background-color: #1194F6; width: 380px; height: 35px; color: #ffffff;font-size: 25px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                        </label>
+
+                        <label style="font-size: 30px; font-family: Arial;color: #ffffff;">
+                            UF:
+                            <input type="text" name="uf" required placeholder="UF" style="text-align: center;background-color: #1194F6; width: 70px; height: 35px; color: #ffffff;font-size: 25px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                        </label><br>
+
+                        <label style="font-size: 30px; font-family: Arial;color: #ffffff;">
+                            Telefone:
+                            <input type="text" name="telefone" required placeholder="(99) 99999-9999" style="text-align: center;background-color: #1194F6; width: 300px; height: 35px; color: #ffffff;font-size: 25px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                        </label><br>
+
+                        <label>
+                            <input type="reset" value="REDEFINIR" style="text-align: center;background-color: #1194F6; width: 180px; height: 40px; color: #ffffff;font-size: 25px; font-family: Arial; margin-top: 15px; margin-left: 15px; border-radius: 20px;">
+                        </label>
+
+                        <label>
+                            <input type="button" value="CADASTRAR" style="text-align: center;background-color: #1194F6; width: 200px; height: 40px; color: #ffffff;font-size: 25px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                        </label>
+
+                    </form>
+                </article>
+            </section>
+        </main>
+
+        <footer style="margin-left: 28%; margin-top: 5%; clear: both; background-color: #1194F6; width: 600px; height: 25px; border-radius: 20px 20px 0px 0px;">
+           <p style="color: #ffffff; text-align: center;">© 2021 - PMP, Desenvolvido por Alysson Santos - Todos os Direitos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>

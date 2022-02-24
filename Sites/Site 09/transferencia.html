@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Francisco Alysson">
+    <meta name="Contato" content="franciscoalyssongomesdossantos@gmail.com">
+    <meta name="keyworks" content=" HTML5 CSS3">
+    <link rel="icon" href="./imagens/icon.png">
+    <title>Banco do Brasil | Transferências</title>
+</head>
+<body style="background-image: url(./imagens/tema.png); text-align: center;">
+    <div id="wrap">
+        <header style="text-align: center;">
+            <h1 class="titulo" style="color: #1194F6; font-family: Arial; font-size: 40px;">TRANSFERÊNCIA</h1>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <ul style="list-style: none; text-align: left; ">
+                        <li style="text-align: center;background-color: #1194F6; width: 65px; height: 25px; border-radius: 20px;"><a href="index.html" style="text-decoration: none; color: #ffffff;font-size: 20px; font-family: Arial;">Voltar</a></li>
+                    </ul>
+                </article>
+            </section>
+
+            <section>
+                <article>
+                    <form action="saque.html" method="post">
+
+                        <label style="font-size: 16px; font-family: Arial;color: #ffffff;">
+                            Valor:
+                            <input type="text" required name="valor" width="60" height="30" placeholder="R$ 0,00" style="text-align: center;background-color: #1194F6; width: 200px; height: 25px; color: #ffffff;font-size: 16px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                        </label><br>
+
+                        <label style="font-size: 16px; font-family: Arial;color: #ffffff;">
+                            Banco:
+                            <select name="banco" required style="text-align: center;background-color: #1194F6; width: 540px; height: 25px; color: #ffffff;font-size: 16px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                                <option value="escolher">Escolha o banco</option>
+                                <option value="banco inter">077 | BANCO INTER</option>
+                                <option value="caixa economica federal">104 | CAIXA ECONOMICA FEDERAL</option>
+                                <option value="itau unibanco">341 | ITAU UNIBANCO S.A.</option>
+                                <option value="banco do brasil">001 | BANCO DO BRASIL S.A.</option>
+                                <option value="banco bradesco">237 | BCO BRADESCO S.A.</option>
+                                <option value="banco santander">033 | BCO SANTANDER(BRASIL) S.A.</option>
+                                <option value="banco modal">746 | BCO MODAL S.A.</option>
+                                <option value="banco do estado do rs">041 | BCO DO ESTADO DO RS S.A.</option>
+                                <option value="banco cooperativo sicredi">748 | BCO COOPERATIVO SICREDI S.A.</option>
+                                <option value="banco bmg">318 | BCO BMG S.A.</option>
+                                <option value="banco safra">422 | BCO SAFRA S.A.</option>
+                                <option value="banco mercantil do brasil">389 | BCO MERCANTIL DO BRASIL S.A.</option>
+                                <option value="parana banco">254 | PARANA BCO S.A.</option>
+                                <option value="banco do nordeste do brasil">004 | BCO DO NORDESTE DO BRASIL S.A.</option>
+                                <option value="bnds">007 | BNDS</option>
+                            </select>
+                        </label><br>
+
+                        <label style="font-size: 16px; font-family: Arial;color: #ffffff;">
+                            Agência:
+                            <input type="text" required name="agencia" width="60" height="30" placeholder="0000" maxlength="4" style="text-align: center;background-color: #1194F6; width: 90px; height: 25px; color: #ffffff;font-size: 16px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                        </label>
+
+                        <label style="font-size: 16px; font-family: Arial;color: #ffffff;">
+                            Conta:
+                            <input type="text" required name="conta" width="60" height="30" placeholder="0000000-0" maxlength="9" style="text-align: center;background-color: #1194F6; width: 145px; height: 25px; color: #ffffff;font-size: 16px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                        </label><br>
+
+                        <label style="font-size: 16px; font-family: Arial;color: #ffffff;">
+                            CPF/CNPJ:
+                            <input type="text" name="cpfcnpj" required placeholder="Digite o CPF ou CNPJ" maxlength="14" style="text-align: center;background-color: #1194F6; width: 200px; height: 25px; color: #ffffff;font-size: 16px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                        </label><br>
+
+                        <label style="font-size: 16px; font-family: Arial;color: #ffffff;">
+                            Tipo de conta:
+                            <select name="tipoconta" required style="text-align: center;background-color: #1194F6; width: 200px; height: 25px; color: #ffffff;font-size: 16px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                                <option value="escolha">Escolha o tipo da conta</option>
+                                <option value="corrente">Conta Corrente</option>
+                                <option value="poupanca">Conta Poupança</option>
+                            </select>
+                        </label><br>
+
+                        <label>
+                            <input type="reset" width="10" height="40" value="REDEFINIR" style="text-align: center;background-color: #1194F6; width: 150px; height: 30px; color: #ffffff;font-size: 20px; font-family: Arial; margin-top: 15px; margin-left: 15px; border-radius: 20px;">
+                        </label>
+
+                        <label>
+                            <input type="button" width="10" height="40" value="TRANSFERIR" style="text-align: center;background-color: #1194F6; width: 160px; height: 30px; color: #ffffff;font-size: 20px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                        </label>
+
+                    </form>
+                </article>
+            </section>
+        </main>
+
+        <footer style="margin-left: 28%; margin-top: 5%; clear: both; background-color: #1194F6; width: 600px; height: 25px; border-radius: 20px 20px 0px 0px;">
+           <p style="color: #ffffff; text-align: center;">© 2021 - PMP, Desenvolvido por Alysson Santos - Todos os Direitos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>

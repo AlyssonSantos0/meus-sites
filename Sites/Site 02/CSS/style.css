@@ -1,0 +1,143 @@
+/* Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #CFCFCF;
+}
+
+header{
+    background-image: url("../img/bg-3.jpg");
+    height: 500px;  /* Atribuindo 500px de altura */
+    background-size: cover; /* Ajustar o tamanho imagem sem "cortes" */
+    background-position: right center; /* Posicionamento tem como referência  a direito e o centro*/
+    border-top: 1px solid transparent; 
+}
+
+header nav ul{
+    text-align: right;
+    margin: 50px 50px 0px 0px;
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 15px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 13px;
+    background-color: #828282;
+}
+
+header nav ul li a:hover{
+    background-color: #4F4F4F;
+}
+
+header .texto_header{
+    text-align: center; /* Alinhando o texto (H1 e o P) ao centro */
+    margin-top: 150px; /* Espaçamento Externo (Margem) do topo em 150px  */
+}
+
+header .texto_header h1{
+    font-size: 40px; /* Alterando o tamanho do H1 */
+    text-transform: uppercase; /* Transformando o H1 em maiúsculo */
+    color: #FFFFFF; /* Colocando a cor branco no texto */
+    text-shadow: 3px 3px 3px #000000; /*Essa propriedade cria uma sombra no texto. O primeiro valor é o deslocamento da sombra no eixo-x, o segundo valor o deslocamento da sombra no eixo-y. O terceiro valor é a intensidade da sombra e o último é a cor da sombra.*/
+}
+
+header .texto_header p{
+    margin-top: 60px; /* Aplicando um espaçamento externo superior de 60px, fazendo que o elemento fique distante do h1 */
+    background: rgba(0, 0, 0, 0.7);  /* Os três primeiros valores representam a tonalidade de red, green e blue; o último valor o grau de transparencia (0.1 a 1) */
+    color: #FFFFFF; /* Texto com a cor branca */
+    display: inline-block; /* Alteramos o display para o elemento ficar em bloco (display todo) se comportando com um elemento de linha (elementos que permitem outros elementos ao lado) */
+    padding: 10px; /* Espaçamento interno de 10px */
+    border-bottom: 2px solid #FFFFFF; /* Borda inferior de 2px sólida na cor branca */
+}
+
+main{
+    margin: auto; /*Centralizando o conteúdo*/
+    width: 80%;   /*Definindo o tamanho em 80% da tela*/ 
+    padding: 10px; /* Espaçamento interno para separar a borda do conteúdo */
+    box-sizing: content-box;
+}
+
+main section{
+    margin-top: 10px; /* Espaçamento para separar da imagem de topo */
+    background-color: #FFFFFF; /* Aplicando uma cor de fundo branca */
+    padding: 10px;
+}
+
+main #bloco_imagens #div_maior{
+    font-size: 0;
+}
+
+main #bloco_imagens .card{
+    display: inline-block; /* Permitiu os cards ficarem lado a lado (inline) */
+    width: 32%; /* Os cards devem oculpar 32% do tamanho do <main> */
+}
+
+main #bloco_imagens .card img{
+    width: 100%; /* Imagem dentro do card deve oculpar 100% do tamanho do próprio card. */
+}
+
+main .card_2, main .card_3{
+    margin-left: 1.5%;
+}
+
+main #bloco_imagens .card p{
+    background-color:#4F4F4F; /* Alterando o plano de fundo */
+    color: #FFFFFF; /* Alterando a cor do texto */
+    height: 50px; /* Altura de 50% ao elemento <p> */
+    line-height: 50px; /* Alinhando o texto ao centro (vertical), usando a mesma quantidade de px do height */
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+main #conteudo_textual{
+    padding: 10px;
+}
+
+main #conteudo_textual #primeiro_paragrafo{
+    font-size: 18px;
+    font-family: sans-serif;
+    word-break: normal;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+main #conteudo_textual #segundo_paragrafo{
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: #4F4F4F;
+}
+
+footer p{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 13px;
+    line-height: 70px;
+}
+
+footer p a{
+    text-decoration: none;
+    display: inline;
+    color: #836FFF;
+}

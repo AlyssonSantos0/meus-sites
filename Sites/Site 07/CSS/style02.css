@@ -1,0 +1,304 @@
+
+@viewport {
+    zoom: 1.0;
+    width: device-width;
+    height: device-height;
+}
+
+.site {
+    width: device-width;
+    height: device-height;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.site .cabecalho .barra_superior{
+    width: 100%;
+    height: 60px;
+    background-color: #3296d4;
+    position: relative;
+}
+
+.site .cabecalho .barra_superior h1{
+    margin: auto;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 0.5%;
+    color: #ffffff;
+}
+
+.site nav{
+    width: 100%;
+    height: 30px;
+    background-color: #173c51;
+    position: relative;
+    margin: auto;
+}
+
+.site nav ul{
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 0px;
+}
+
+.site nav ul li{
+    position: relative;
+    margin: 0 auto;
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+    display: inline-block;
+    background-color: #173c51;
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-right: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.site nav li:hover{
+    background-color: #3296d4;
+}
+
+.site nav ul li a{
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.site nav a:hover{
+    color: #ffffff;
+}
+
+.site .corpo_principal{
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+}
+
+.site .corpo_principal .container_form{
+    margin: 0 auto;
+    width: 70%;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.site .corpo_principal .container_form .moldura_form{
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+    background-color: #A9A9A9;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+}
+
+.site .corpo_principal .container_form .moldura_form .formulario{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.site .corpo_principal .container_form .moldura_form .formulario form{
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+}
+
+.site .corpo_principal .container_form .moldura_form .formulario form h1{
+    margin: 0 auto;
+    text-align: center;
+    color: #173c51;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.site .corpo_principal .container_form .moldura_form .formulario form label{
+    margin: 0 auto;
+    text-align: center;
+    color: #173c51;
+    font-size: 18px;
+    font-weight: 650;
+    margin-left: 8px;
+    margin-right: 5px;
+}
+
+.site .corpo_principal .container_form .moldura_form .formulario form input{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 13px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #B0C4DE;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    height: 30px;
+}
+
+input::placeholder{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
+    border-color: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px #3296d4;
+}
+
+.site .corpo_principal .container_form .moldura_form .formulario #nome, #email, #responsavel{
+    margin: 0 auto;
+    margin-top: 13px;
+    width: 55%;
+    height: 30px;
+    text-align: center;
+}
+
+.site .corpo_principal .container_form .moldura_form .formulario #cpf, #data_nasc, #telefone, #celular{
+    margin: 0 auto;
+    margin-top: 13px;
+    width: 20%;
+    height: 30px;
+    text-align: center;
+}
+
+.site .corpo_principal .container_form .moldura_form .formulario .envio-dados-formulario{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.site .corpo_principal .container_form .moldura_form .formulario .envio-dados-formulario #reset, #envio{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 14%;
+    height: 35px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+#envio:hover{
+    border-color: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px #3296d4;
+}
+
+#reset:hover{
+    border-color: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px #3296d4;
+}
+
+.site .corpo_principal .container_form .moldura_form .formulario .envio-dados-formulario #envio{
+    margin-left: 10px;
+}
+
+.site .corpo_principal .container_form .moldura_form .formulario form select{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 13px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #B0C4DE;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    height: 30px;
+}
+
+select:focus{
+    outline: none;
+    border-color: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px #3296d4;
+}
+
+.site .corpo_principal .container_form .moldura_form .formulario #turma{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    height: 30px;
+    width: 14%;
+}
+
+.site .corpo_principal .container_form .moldura_form .formulario #turno{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    height: 30px;
+    width: 10%;
+}
+
+.site .corpo_principal .container_form .moldura_form .formulario #status{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    height: 30px;
+    width: 27%;
+}
+
+.site .corpo_principal .container_form .moldura_form .formulario #data_proc{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    height: 30px;
+    width: 20%;
+}
+
+.site .corpo_principal .container_form .moldura_form .formulario #assunto{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    height: 30px;
+    width: 43%;
+}
+
+.site .rodape {
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    background-color: #3296d4;
+    position: absolute;
+    border: 1px solid transparent;
+}
+
+.site .rodape p {
+    margin: 0 auto;
+    margin-top: 1%;
+    text-align: center;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.site .rodape a {
+    text-decoration: none;
+    color: #173c51;
+}
+
+.site .rodape a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}

@@ -1,0 +1,154 @@
+
+body{
+    font-family: Oxygen;
+}
+
+.wrap .header-topo .logo{
+    text-align: center;
+}
+
+.wrap .menu-header{
+    background-color: #612674;
+}
+
+ .wrap .header-topo .menu-header ul{
+    text-align: center;
+    list-style: none;
+    padding: 1em 0;
+}
+
+.header-topo .menu-header a{
+    text-decoration: none;
+    color: #FFF;
+    padding: 1em;
+    display: block;
+}
+
+.header-topo .menu-header a:hover{
+    background-color: #7C3792;
+}
+
+.destaque{
+    background-color: #F6F6F6;
+    padding: 1em 1.75em;
+    padding-bottom: 3em;
+}
+
+.destaque h2{
+    color: #612674;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.destaque p{
+    text-align: center;
+    line-height: 1.5em;
+    color: #A87BB7;
+    font-family: arial;
+}
+
+.btn-estilizado{
+    text-align: center;
+    margin-top: 1.5em;
+
+}
+
+.btn-estilizado a{
+    text-decoration: none;
+    padding: 0.5em 2em;
+    box-sizing: border-box;
+    border-radius: 0.5em;
+    color: #FFF;
+    background-color: #58c4c4;     
+}
+
+.btn-estilizado a:hover{
+    background-color: #37A0A0;
+}
+
+.conteudos{
+    background-color: #F6F6F6;
+    padding-bottom: 1.5em;
+    
+}
+
+.conteudos .conteudo .icon{
+    display: block;
+    text-align: center;
+    font-size: 2.5em;
+    color: #612674;
+    padding-top: 0.5em;
+}
+
+.conteudos .conteudo .titulo-conteudo{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    color: #612674;
+}
+
+.conteudos .conteudo .descricao-conteudo{
+    color: rgba(0, 0, 0, 0.8);
+    padding: 0 2em;
+    text-align: center;
+}
+
+.designs .tipo-design{
+    padding: 1em 2em;
+}
+
+.designs .tipo-design .titulo-design{
+    text-transform: uppercase;
+    color: #612674;
+    font-family: Arial;
+    font-size: 0.8em;
+}
+
+.designs .tipo-design .btn-estilizado{
+    text-align: left;
+}
+
+.rodape .social-media{
+    background-color: #303d4c;
+    padding: 0.7em;
+    margin-top: 4em;
+}
+
+.rodape .icon{
+    display: inline;
+}
+
+.rodape .icon a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #fff;
+    padding: 0em 0.5em ;
+}
+
+.rodape .icon a span{
+    text-align: center;
+}
+
+.rodape .copyright{
+    background-color: #303d4c;
+    color: #83969f;
+    text-align: center;
+    padding: 1em 2em;
+}
+
+/*******************************************************************/
+/**                   ESTRUTURA DE MEDIA QUERY                   **/
+/*****************************************************************/
+
+/*  48.75em  -->  780px  */
+@media screen and (min-width: 48.75em) {
+    .destaque{
+        background-color: #612674;
+    }
+
+    .destaque h2, .destaque p{
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    /**   Fazer Menu Horizontal em Cima   **/
+}

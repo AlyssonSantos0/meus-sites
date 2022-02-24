@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Francisco Alysson">
+    <meta name="Contato" content="franciscoalyssongomesdossantos@gmail.com">
+    <meta name="keyworks" content=" HTML5 CSS3">
+    <link rel="icon" href="./imagens/icon.png">
+    <title>Ceep Liceu Parnaibano | Matrícula</title>
+</head>
+<body style="background-image: url(./imagens/temaescuro.png); text-align: center;">
+        <header style="text-align: center;">
+            <h1 class="titulo" style="color: #ffffff; font-family: Arial; font-size: 40px;">MATRÍCULA</h1>
+        </header>
+            <section>
+                <article>
+                    <form action="saque.html" method="post" style="text-align: center;">
+
+                        <label style="font-size: 20px; font-family: Arial;color: #ffffff;">
+                            Nome:
+                            <input type="text" required name="nome" maxlength="70" style="text-align: center;background-color: #6A5ACD; width: 600px; height: 30px; color: #ffffff;font-size: 20px; font-family: Arial; margin-top: 5px; border-radius: 20px;">
+                        </label><br>
+
+                        <label style="font-size: 20px; font-family: Arial;color: #ffffff;">
+                            Data de nascimento:
+                            <input type="date" required name="nascimento" style="text-align: center;background-color: #6A5ACD; width: 180px; height: 30px; color: #ffffff;font-size: 20px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                        </label>
+
+                        <label style="font-size: 20px; font-family: Arial;color: #ffffff;">
+                            Sexo:
+                            <select name="sexo" required style="text-align: center;background-color: #6A5ACD; width: 220px; height: 30px; color: #ffffff;font-size: 20px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                                <option value="escolher">Escolha um sexo</option>
+                                <option value="banco inter">Masculino</option>
+                                <option value="caixa economica federal">Feminino</option>
+                                <option value="itau unibanco">Prefiro não informar</option>
+                            </select>
+                        </label><br>
+
+                        <label style="font-size: 20px; font-family: Arial;color: #ffffff;">
+                            Nome do pai:
+                            <input type="text" name="pai" required maxlength="70" style="text-align: center;background-color: #6A5ACD; width: 600px; height: 30px; color: #ffffff;font-size: 20px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                        </label><br>
+
+                        <label style="font-size: 20px; font-family: Arial;color: #ffffff;">
+                            Nome da mãe:
+                            <input type="text" name="mae" required maxlength="70" style="text-align: center;background-color: #6A5ACD; width: 600px; height: 30px; color: #ffffff;font-size: 20px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                        </label><br>
+
+                        <label style="font-size: 20px; font-family: Arial;color: #ffffff;">
+                            Endereço:
+                            <input type="text" name="endereco" required style="text-align: center;background-color: #6A5ACD; width: 650px; height: 30px; color: #ffffff;font-size: 20px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                        </label><br>
+
+                        <label style="font-size: 20px; font-family: Arial;color: #ffffff;">
+                            Bairro:
+                            <input type="text" name="bairro" required style="text-align: center;background-color: #6A5ACD; width: 300px; height: 30px; color: #ffffff;font-size: 20px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                        </label>
+
+                        <label style="font-size: 20px; font-family: Arial;color: #ffffff;">
+                            Cidade:
+                            <input type="text" name="Cidade" required style="text-align: center;background-color: #6A5ACD; width: 300px; height: 30px; color: #ffffff;font-size: 20px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                        </label>
+
+                        <label style="font-size: 20px; font-family: Arial;color: #ffffff;">
+                            Estado:
+                            <input type="text" name="uf" required  style="text-align: center;background-color: #6A5ACD; width: 300px; height: 30px; color: #ffffff;font-size: 20px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                        </label><br>
+
+                        <label style="font-size: 20px; font-family: Arial;color: #ffffff;">
+                            Email:
+                            <input type="email" name="email" required maxlength="256" style="text-align: center;background-color: #6A5ACD; width: 600px; height: 30px; color: #ffffff;font-size: 20px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                        </label>
+
+                        <label style="font-size: 20px; font-family: Arial;color: #ffffff;">
+                            Telefone:
+                            <input type="text" name="telefone" required maxlength="15" style="text-align: center;background-color: #6A5ACD; width: 320px; height: 30px; color: #ffffff;font-size: 20px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                        </label><br>
+
+                        <label style="font-size: 20px; font-family: Arial;color: #ffffff;">
+                            Possui benefício social?
+                            <select name="beneficio" required style="text-align: center;background-color: #6A5ACD; width: 350px; height: 30px; color: #ffffff;font-size: 20px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                                <option value="sim">Sim, possuo.</option>
+                                <option value="nao">Não, possuo.</option>
+                            </select>
+                        </label>
+
+                        <label style="font-size: 20px; font-family: Arial;color: #ffffff;">
+                            Aluno repetente?
+                            <select name="repetente" required style="text-align: center;background-color: #6A5ACD; width: 350px; height: 30px; color: #ffffff;font-size: 20px; font-family: Arial; margin-top: 15px; border-radius: 20px;">
+                                <option value="sim">Sim</option>
+                                <option value="nao">Não</option>
+                            </select>
+                        </label><br>
+
+                        <label>
+                            <input type="reset" value="LIMPAR CADASTRO" style="text-align: center;background-color: #6A5ACD; width: 250px; height: 35px; color: #ffffff;font-size: 20px; font-family: Arial; margin-top: 25px; margin-left: 15px; border-radius: 20px;">
+                        </label>
+
+                        <label>
+                            <input type="button" value="ENVIAR" style="text-align: center;background-color: #6A5ACD; width: 200px; height: 35px; color: #ffffff;font-size: 20px; font-family: Arial; margin-top: 25px; border-radius: 20px; margin-left: 20px;">
+                        </label>
+
+                    </form>
+                </article>
+            </section>
+        </main>
+
+        <footer style="margin-left: 28%; margin-top: 3%; clear: both; background-color: #6A5ACD; width: 600px; height: 25px; border-radius: 20px 20px 0px 0px;">
+           <p style="color: #ffffff; text-align: center;">© 2021 - PMP, Desenvolvido por Alysson Santos - Todos os Direitos reservados.</p>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+ }
+
+body{
+     background-image: url("../imagens/bg.jpg");
+     background-attachment: fixed;
+     background-position: right bottom;
+ }
+
+.container{
+     width: 800px;
+     margin: auto;
+     padding-top: 30px;
+ }
+
+.container p{
+     font-size: 20px;
+     font-family: sans-serif;
+     text-align: justify;
+     line-height: 1.7;
+ }
+
+.container .img-html{
+    float: left;
+ }
+
+.container .css-html{
+    float: right;
+ }
+
+ .container .divisor{
+     margin: 20px 0px;
+ }

@@ -1,0 +1,270 @@
+
+#site{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#site #cabecalho #barra_azul{
+    width: 100%;
+    height: 40px;
+    background-color: #006FB1;
+    background-position: center;
+}
+
+#site #cabecalho #barra{
+    width: 100%;
+    height: 120px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+#site #cabecalho #barra #logo{
+    display: inline-block;
+    position: absolute;
+    left: 2%;
+    top: 8px;
+}
+
+#site #cabecalho #barra nav ul{
+    text-align: right;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+#site #cabecalho #barra nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#site #cabecalho #barra nav ul li a{
+    text-decoration: none;
+    color: #1F94D7;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 90px;
+}
+
+#site #cabecalho #barra a:hover{
+    color: #006FB1;
+}
+
+#site #cabecalho #imagem_principal{
+    background-image: url("../img/slide_site.png");
+    height: 600px;
+    background-size: cover;
+    background-position: left center;
+    border-top: 1px solid transparent; 
+}
+
+main #descricao{
+    margin: 0 auto;
+    width: 100%;
+    height: 200px;
+}
+
+main #descricao #div_maior{
+    font-size: 0;
+}
+
+main #descricao #div_maior .conteudo01{
+    display: inline-block;
+    background-color: #1F94D7;
+    width: 33.3%;
+    height: 200px;
+}
+
+main #descricao #div_maior .conteudo02{
+    display: inline-block;
+    background-color: #0082D0;
+    width: 33.3%;
+    height: 200px;
+}
+
+main #descricao #div_maior .conteudo03{
+    display: inline-block;
+    background-color: #006FB1;
+    width: 33.3%;
+    height: 200px;
+}
+
+main #descricao #div_maior .conteudo01 h2{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+main #descricao #div_maior .conteudo01 p{
+    color: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+} 
+
+main #descricao #div_maior .conteudo02 h2{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+main #descricao #div_maior .conteudo02 p{
+    color: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+} 
+
+main #descricao #div_maior .conteudo03 h2{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+main #descricao #div_maior .conteudo03 p{
+    color: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+} 
+
+main #serviços{
+    margin: 0 auto;
+    width: 100%;
+}
+main #servicos #div_reguladora{
+    font-size: 0;
+}
+
+main #servicos #div_reguladora .card01{
+    text-align: center;
+    margin-top: 80px;
+    display: inline-block;
+    background-color: #ffffff;
+    width: 33.3%;
+}
+
+main #servicos #div_reguladora .card02{
+    text-align: center;
+    margin-top: 80px;
+    display: inline-block;
+    background-color: #ffffff;
+    width: 33.3%;
+}
+
+main #servicos #div_reguladora .card03{
+    text-align: center;
+    margin-top: 80px;
+    display: inline-block;
+    background-color: #ffffff;
+    width: 33.3%;
+}
+
+main #servicos #div_reguladora .card01 img{
+    width: 134px;
+    height: 120px;
+}
+
+main #servicos #div_reguladora .card02 img{
+    width: 102px;
+    height: 130px;
+}
+
+main #servicos #div_reguladora .card03 img{
+    width: 149px;
+    height: 121px;
+}
+
+main #servicos #div_reguladora .card01 h3{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 23px;
+    font-family: sans-serif;
+}
+
+main #servicos #div_reguladora .card01 p{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-bottom: 80px;
+    line-height: 20px;
+}
+
+main #servicos #div_reguladora .card02 h3{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 23px;
+    font-family: sans-serif;
+}
+
+main #servicos #div_reguladora .card02 p{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-bottom: 80px;
+    line-height: 20px;
+}
+
+main #servicos #div_reguladora .card03 h3{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 23px;
+    font-family: sans-serif;
+}
+
+main #servicos #div_reguladora .card03 p{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-bottom: 80px;
+    line-height: 20px;
+}
+
+#site footer{
+   height: 40px;
+   width: 100%;
+   background-color: #0082D0;
+}
+
+#site footer #rodape p{
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+#site footer #rodape p a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#site footer #rodape a:hover{
+    text-decoration: underline;
+    color: #551A8B;
+}
